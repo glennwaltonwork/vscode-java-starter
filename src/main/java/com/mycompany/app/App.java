@@ -6,4 +6,12 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public int sum(int... values) {
+        int sum = 0;
+        for (int i : values) {
+            sum = sum + i;
+        }
+        return sum;
+    }
 }
