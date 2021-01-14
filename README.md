@@ -1,8 +1,25 @@
 # Polyglot Java Development Starter (Containers)
 
-As a Polyglot Software Engineer, a significant part of your work will require you to ensure that your code always works consistently no matter where it is run. Java in itself provides some of this but not all. Please follow through these instructions to get set up in Visual Studio code with a sandbox environment.
+As a Polyglot Software Engineer, a significant part of your work will require you to ensure that your code always works consistently no matter where it is run. Java in itself provides some of this but not all. Please follow through these instructions to get set up in Visual Studio code with a sandboxed 'container' environment.
 
 For a background on containers in VSCode - please read **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps. 
+
+
+## Pre-requesites
+
+- Windows 10 (Depending on your experience you may be able to follow along on other operating systems)
+- **[VsCode for Windows](https://code.visualstudio.com/Download)**
+- **[Git for Windows](https://git-scm.com/download/win)**
+
+##  Getting a copy of this code - the right way
+
+- Open this repo's page on GitHub.com
+- Make sure you have a personal GitHub account for your learning and you are logged in.
+- Instead of Cloning this repo - Fork it as a Private repo for yourself
+- Clone your own fork of this repo* to ~/localGIT/[this repo]
+- Open the local folder in VSCode
+- After a moment VSCode should detect that you have a container configuration and offer to let you 'Restart in Container' - click this.
+- If you've not used containers before see the 'Setting up the development container' section.
 
 ## Setting up the development container
 
