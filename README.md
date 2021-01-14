@@ -1,34 +1,25 @@
-# Try Out Development Containers: Java
+# Polyglot Java Development Starter (Containers)
 
-This is a sample project that lets you try out the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps.
+As a Polyglot Software Engineer, a significant part of your work will require you to ensure that your code always works consistently no matter where it is run. Java in itself provides some of this but not all. Please follow through these instructions to get set up in Visual Studio code with a sandbox environment.
 
-> **Note:** If you're following the quick start, you can jump to the [Things to try](#things-to-try) section. 
+For a background on containers in VSCode - please read **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps. 
 
 ## Setting up the development container
 
 Follow these steps to open this sample in a container:
 
-1. If this is your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started).
+1. Since this is likely your first time using a development container, please follow the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started).
 
-2. To use this repository, you can either open the repository in an isolated Docker volume:
+2. To use this repository, open the repository in an isolated Docker volume (we'll cover these steps in the workshop):
 
-    - Press <kbd>F1</kbd> and select the **Remote-Containers: Try a Sample...** command.
-    - Choose the "Java" sample, wait for the container to start and try things out!
-        > **Note:** Under the hood, this will use **Remote-Containers: Open Repository in Container...** command to clone the source code in a Docker volume instead of the local filesystem.
-
-   Or open a locally cloned copy of the code:
-
-   - Clone this repository to your local filesystem.
-   - Press <kbd>F1</kbd> and select the **Remote-Containers: Open Folder in Container...** command.
-   - Select the cloned copy of this folder, wait for the container to start, and try things out!
+   - Fork this repository on your own GitHub 
+   - Clone your fork of this repository to your local filesystem.
+   - Follow the prompts to setup your Docker instance 
+   - Post any questions to the channel.
 
 ## Things to try
 
 Once you have this sample opened in a container, you'll be able to work with it like you would locally.
-
-> **Note:** This container runs as a non-root user with sudo access by default. Comment out `"remoteUser": "vscode"` in `.devcontainer/devcontainer.json` if you'd prefer to run as root.
-
-Some things to try:
 
 1. **Edit:**
    - Open `src/main/java/com/mycompany/app/App.java`.
@@ -44,21 +35,4 @@ Some things to try:
    - Put a breakpoint in a test.
    - Click the `Debug Test` in the Code Lens above the function and watch it hit the breakpoint.
   
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## License
-
-Copyright © Microsoft Corporation All rights reserved.<br />
-Licensed under the MIT License. See LICENSE in the project root for license information.
+> **Note:** We'll be adding features to this as we go and you'll be given access to new branches in this repository to base your ideas on.
